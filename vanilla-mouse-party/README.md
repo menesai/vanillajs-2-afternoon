@@ -159,10 +159,8 @@ function draw(){
     )}, ${getRandomNumber(0, 255)});`;
     const ballSize = getRandomNumber(10, 30);
     const size = `height:${ballSize}px; width:${ballSize}px;`;
-    const left = `left:${getRandomNumber(
-      mousePosition.x - ballSize,
-      mousePosition.x
-    )}px;`;
+    const left = `left:${getRandomNumber(mousePosition.x - ballSize,mousePosition.x
+)}px;`;
     const top = `top:${getRandomNumber(
       mousePosition.y - ballSize,
       mousePosition.y
